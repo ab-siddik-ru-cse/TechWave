@@ -237,14 +237,17 @@ ul {
     .nav-bar__list-item--hamburger {
         display: block;
     }
-    .hero-image{
+
+    .hero-image {
         padding-top: 40px;
     }
-    .hero-image__circle{
+
+    .hero-image__circle {
         height: 200px;
         width: 200px;
     }
-    .hero-image__mic{
+
+    .hero-image__mic {
         height: 80px;
         width: 80px;
     }
@@ -254,44 +257,52 @@ ul {
         width: 100%;
 
     }
-    .hero-image__tooltip{
+
+    .hero-image__tooltip {
         top: 20%;
         right: 30%;
         font-size: 12px;
         padding: 6px 12px;
     }
-    .hero-text{
+
+    .hero-text {
         margin-top: 16px;
     }
+
     .text__title {
         font-size: 42px;
         margin-bottom: 12px;
     }
+
     .text__subtitle {
         font-size: 14px;
         margin-bottom: 12px;
     }
-    .hero-button{
+
+    .hero-button {
         gap: 12px;
         margin-top: 16px;
     }
 }
 
 /* Podcast section styles */
-.podcast-section{
+.podcast-section {
     max-width: 1200px;
     margin: 40px auto 80px auto;
 }
-.podcast-text{
+
+.podcast-text {
     text-align: center;
 }
-.podcast__subtitle{
+
+.podcast__subtitle {
     font-size: 16px;
     opacity: 0.8;
     line-height: 2;
     margin: 20px 0px;
 }
-.podcast-info{
+
+.podcast-info {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -300,14 +311,71 @@ ul {
     margin-top: 80px;
     padding-top: 80px;
 }
-.info__title{
+
+.info__title {
     font-size: 48px;
     color: var(--color-green);
     font-weight: bold;
     margin-bottom: 16px;
 }
-.info__subtitle{
+
+.info__subtitle {
     font-size: 16px;
     opacity: 0.8;
     text-transform: uppercase;
+}
+
+/* Why Choose Us section styles */
+.why-choose-section {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 120px 200px;
+    background: #230E3D;
+}
+
+.why-choose__title {
+    text-align: center;
+}
+
+.why-choose-container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, auto);
+    gap: 30px;
+    margin-top: 80px;
+}
+
+.why-choose-content {
+    border-radius: 40px;
+    background: rgb(53, 17, 101, 0.4);
+    padding: 40px;
+}
+
+.big-layout {
+    grid-column: span 1;
+    grid-row: span 2;
+}
+
+.wide-layout {
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.small-layout {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+.big-layout img{
+    margin-top: 60px;
+}
+
+.content__title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 16px 0px;
+}
+.content__subtitle {
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 0.8;
 }
