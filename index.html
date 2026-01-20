@@ -39,7 +39,9 @@
         <section class="hero-section">
             <div class="hero-bg">
                 <div class="hero-image">
-                    <p class="hero-image__tooltip">NEW</p>
+                    <div class="tooltip-parent">
+                        <p class="hero-image__tooltip">NEW</p>
+                    </div>
                     <img class="hero-image__mic" src="assets/icons/microphone.png" alt="">
                     <img class="hero-image__circle" src="assets/images/hero-circle.png" alt="">
                 </div>
@@ -94,31 +96,31 @@
     <section class="why-choose-section">
         <h1 class="why-choose__title">Why Choose TechWave</h1>
         <div class="why-choose-container">
-            <div class="why-choose-content big-layout">
+            <div class="why-choose-content card big-layout">
                 <img src="assets/icons/headphone.png" alt="">
                 <h3 class="content__title">Premium Audio Quality</h3>
                 <p class="content__subtitle">Experience crystal-clear sound with professional-grade recording equipment
                     and expert audio
                     engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
             </div>
-            <div class="why-choose-content wide-layout">
+            <div class="why-choose-content card wide-layout">
                 <img src="assets/icons/device.png" alt="">
                 <h3 class="content__title">Mobile Friendly</h3>
                 <p class="content__subtitle">Listen on the go with seamless mobile experience and offline downloads.</p>
             </div>
-            <div class="why-choose-content wide-layout">
+            <div class="why-choose-content card wide-layout">
                 <img src="assets/icons/location.png" alt="">
                 <h3 class="content__title">Global Community</h3>
                 <p class="content__subtitle">Connect with tech enthusiasts from over 120 countries worldwide.</p>
             </div>
-            <div class="why-choose-content wide-layout">
+            <div class="why-choose-content card wide-layout">
                 <img src="assets/icons/zap-fast.png" alt="">
                 <h3 class="content__title">Exclusive Interviews</h3>
                 <p class="content__subtitle">Get unprecedented access to industry titans, startup founders, and tech
                     visionaries. Our host secures exclusive conversations you won't find anywhere else, diving deep into
                     their journeys, failures, and success strategies.</p>
             </div>
-            <div class="why-choose-content small-layout">
+            <div class="why-choose-content card small-layout">
                 <img src="assets/icons/resource.png" alt="">
                 <h3 class="content__title">Rich Resources</h3>
                 <p class="content__subtitle">Access show notes, transcripts, and additional learning materials for every
@@ -129,7 +131,7 @@
     <section class="episode-section">
         <h1 class="episode-section__title">Featured Episodes</h1>
         <div class="episode-container">
-            <div class="episode-content">
+            <div class="episode-content card">
                 <iframe width="380" height="440" src="https://www.youtube.com/embed/01l0s1iR_ZI?si=LNR1UgKesIjv8B4B"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -142,7 +144,7 @@
                     <p class="episode__icon"> <i class="fa-solid fa-clock"></i></i>42 min</p>
                 </div>
             </div>
-            <div class="episode-content">
+            <div class="episode-content card">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/-dC1omlXDA4?si=OCi7PzQ5WuSDbGn_"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -154,7 +156,7 @@
                     <p class="episode__icon"> <i class="fa-solid fa-clock"></i></i>35 min</p>
                 </div>
             </div>
-            <div class="episode-content">
+            <div class="episode-content card">
                 <iframe width="560" height="560" src="https://www.youtube.com/embed/hGP-56hZc4I?si=a2i-XfGh3KVSzGXz"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -170,7 +172,7 @@
     </section>
     <section class="host-section">
         <h1 class="host-section__title">Meet the Host</h1>
-        <div class="host-container">
+        <div class="host-container card">
             <div class="host-image">
                 <img src="assets/images/host.png" alt="Host Image">
             </div>
@@ -192,7 +194,7 @@
     <footer class="footer-container">
         <div class="footer-content">
             <div class="footer-brand">
-                <a href="#home" class="brand-logo__link">
+                <a href="#home" class="brand-logo__link footer-brand__link">
                     Tech<span class="brand-logo__text" style="--i:1;" data-text="Wave">Wave</span>
                 </a>
             </div>
