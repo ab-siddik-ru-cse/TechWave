@@ -311,8 +311,14 @@ ul {
         gap: 12px;
         margin-top: 16px;
     }
+    .brand-button{
+        gap: 4px;
+    }
 
     .brand-button__label {
+        font-size: 14px;
+    }
+    .brand-button__icon {
         font-size: 14px;
     }
 }
@@ -360,6 +366,10 @@ ul {
     max-width: 1200px;
     margin: 40px auto 80px auto;
 }
+.podcast__title {
+    font-size: 48px;
+    font-weight: bold;
+}
 
 .podcast-text {
     text-align: center;
@@ -401,6 +411,9 @@ ul {
     .podcast-section {
         padding: 40px 20px;
         margin: 0px;
+    }
+    .podcast__title{
+        font-size: 32px;
     }
 
     .podcast__subtitle {
@@ -452,6 +465,8 @@ ul {
 }
 
 .why-choose__title {
+    font-size: 48px;
+    font-weight: bold;
     text-align: center;
 }
 
@@ -506,6 +521,9 @@ ul {
     .why-choose-section {
         padding: 40px 20px;
         margin: 0 auto;
+    }
+    .why-choose__title {
+        font-size: 32px;
     }
 
     .why-choose-container {
