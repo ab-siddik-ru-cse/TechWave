@@ -293,6 +293,30 @@ ul {
         margin-top: 16px;
     }
 }
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .nav-bar {
+        padding: 16px 40px;
+    }
+
+    .hero-section {
+        height: 600px;
+    }
+
+    .text__title {
+        font-size: 48px;
+    }
+
+    .text__subtitle {
+        font-size: 16px;
+    }
+    .hero-image__tooltip {
+        top: 25%;
+        right: 35%;
+        font-size: 14px;
+        padding: 6px 12px;
+    }
+    
+}
 
 /* Podcast section styles */
 .podcast-section {
@@ -351,6 +375,7 @@ ul {
     .podcast-info {
         margin-top: 40px;
         padding-top: 40px;
+        flex: 0 0 45%;
     }
 
     .info__title {
@@ -361,6 +386,12 @@ ul {
     .info__subtitle {
         font-size: 14px;
     }
+}
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .podcast-section {
+        margin: 120px auto 60px auto;
+    }
+    
 }
 
 /* Why Choose Us section styles */
@@ -450,6 +481,28 @@ ul {
     }
 }
 
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .why-choose-section {
+        padding: 80px 40px;
+    }
+
+    .why-choose-container {
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: auto;
+        gap: 24px;
+    }
+
+    .big-layout {
+        grid-column: span 2;
+        grid-row: span 1;
+    }
+    .small-layout {
+        grid-column: span 2;
+        grid-row: span 1;
+    }
+    
+}
+
 /* episode section styles */
 
 .episode-section {
@@ -529,6 +582,19 @@ ul {
 
 }
 
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .episode-section {
+        padding: 40px 80px;
+    }
+
+    .episode-container {
+        flex-direction: column;
+        gap: 24px;
+    }
+    
+}
+
+
 /*  Host section styles */
 
 .host-section {
@@ -583,6 +649,13 @@ ul {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .host-section {
+        padding: 0px 80px 80px 80px;
+    }
+    
 }
 
 @media screen and (max-width: 576px) {
@@ -683,4 +756,11 @@ ul {
         margin: 0;
         font-size: 16px;
     }
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .footer-container {
+        padding: 80px 40px;
+    }
+    
 }
